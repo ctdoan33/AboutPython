@@ -76,27 +76,30 @@
     margin-left: 500px;
 }
 #body{
-    width: 1600px; 
+    width: 1800px; 
     height: 800px;
 }
 #bodytext{
-    width: 800px; 
+    width: 1000px; 
     height: 400px; 
     display: inline-block;
 }
 #bodytext > p{
     text-align: center;
-    color: white;  
+    color: white;
+    font-size: 20pt; 
 }
 #bodytext > ul{
-    color:orange; 
+    color: yellow; 
     font-style: italic; 
+    font-size: 20pt;
+    text-align: center;
+    list-style-type: none;
 }
 #white{
     width: 1920px; 
     height: 400px; 
     background-color: white; 
-    border: 2px solid black; 
 }
 .textbox{
     width: 800px; 
@@ -108,23 +111,29 @@
 }
 .textbox > ul{
     color: #91bade; 
-    text-align: center; 
+    text-align: center;
+    font-size: 18pt; 
 }
 .textbox > h2{
-    text-align: center; 
+    text-align: center;
+    font-size: 20pt; 
 }
 .textbox > p{
     text-align: center; 
+    font-size: 18pt;
+}
+#bluetext{
+    color: #91bade;
 }
 #navbar{
     display: inline-block;
-    height: 50px;
+    height: 60px;
     width: 1600px;
     border-radius: 10px;
     color: black;
     background-color: #477EAD;
     position:relative;
-    left: 100px;
+    left: 150px;
     box-shadow: 2px 2px;
     /* border-bottom-color: black;
     border-bottom-style: solid;
@@ -134,48 +143,51 @@
 }
 
 .navbarText{
-    font-size: 25;
+    font-size: 24pt;
     display: inline;
-    margin: 80px;
+    margin: 60px;
     line-height: 2;
     color: white;
+    position: relative;
+    left: 30px;
 }
 
 #list{
     position: relative;
     width: 600px;
-    top: 20px;
-    left: 150px;
+    top: 30px;
+    left: 300px;
     color: white;
     text-decoration: underline;
     display: inline-block;
+    font-size: 20pt;
 }
 #docs{
 }
 #av{
     position: relative;
-    left: -40px;
+    left: -50px;
     bottom: 10px;
 }
 #beginner{
     position: relative;
     bottom: 20px;
-    left: -35px;
+    left: -45px;
 }
 #developer{
     position: relative;
     bottom: 30px;
-    left: -40px;
+    left: -50px;
 }
 #pep{
     position: relative;
     bottom: 40px;
-    left: -15px;
+    left: -20px;
 }
 #python{
     position: relative;
     bottom: 50px;
-    left: -25px;
+    left: -35px;
 }
 #faq{
     position: relative;
