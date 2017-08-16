@@ -4,39 +4,76 @@
     background-color: #245176;
 }
 #top{
-    width: 1900px;
+    width: 1920px;
     height: 800px;
 }
 #header{
-    width: 1900px;
+    width: 1920px;
     height: 250px;
 }
 #pythonimg{
-    width: 400px;
-    margin: 50px 1000px 0px 50px;
+    width: 700px;
+    margin: 25px 500px 0px 50px;
 }
 #corner{
     display: inline-block;
+    vertical-align: top;
+    padding: 20px;
 }
 #textsize{
+    color: white;
+    font-size: 20pt;
     display: inline;
-}
-.sizes{
-    display: inline;
+    margin-left: 190px;
 }
 #separator{
+    color: black;
+}
+.sizes{
+    color: yellow;
+    font-size: 20pt;
     display: inline;
 }
 #search{
-    width: 250px;
-    height: 40px;
-    background-color: yellow;
+    width: 550px;
+    height: 125px;
+    background-color: rgb(68,68,68);
+    box-shadow: 5px 5px;
+    border-radius: 10px;
 }
 #searchbox{
-    margin: 10px;
+    color: gray;
+    text-align: center;
+    font-size: 15pt;
+    height: 50px;
+    width: 300px;
+    margin: 30px 30px 30px 70px;
+    border: 5px solid gray;
 }
 #submit{
-
+    font-size: 20pt;
+    height: 50px;
+    width: 75px;
+    color: white;
+    background-color: #245176;
+    border-radius: 10px;
+}
+#footer{
+    padding-left: 400px;
+    padding-top: 300px;
+    height: 500px;
+}
+.footlink{
+    color: rgb(137,186,227);
+    font-size: 25pt;
+    text-decoration: none;
+    margin: 30px;
+}
+#copyright{
+    color: rgb(137,186,227);
+    font-size: 15pt;
+    text-decoration: none;
+    margin-left: 500px;
 }
 #body{
     width: 1600px; 
