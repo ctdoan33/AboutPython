@@ -1,0 +1,147 @@
+#wrapper{
+    width: 1920px;
+    height: 1596px;
+    background-color: #245176;
+}
+#top{
+    width: 1900px;
+    height: 800px;
+}
+#header{
+    width: 1900px;
+    height: 250px;
+}
+#pythonimg{
+    width: 400px;
+    margin: 50px 1000px 0px 50px;
+}
+#corner{
+    display: inline-block;
+}
+#textsize{
+    display: inline;
+}
+.sizes{
+    display: inline;
+}
+#separator{
+    display: inline;
+}
+#search{
+    width: 250px;
+    height: 40px;
+    background-color: yellow;
+}
+#searchbox{
+    margin: 10px;
+}
+#submit{
+
+}
+#body{
+    width: 1600px; 
+    height: 800px;
+}
+#bodytext{
+    width: 800px; 
+    height: 400px; 
+    display: inline-block;
+}
+#bodytext > p{
+    text-align: center;
+    color: white;  
+}
+#bodytext > ul{
+    color:orange; 
+    font-style: italic; 
+}
+#white{
+    width: 1920px; 
+    height: 400px; 
+    background-color: white; 
+    border: 2px solid black; 
+}
+.textbox{
+    width: 800px; 
+    height: 350px; 
+    display: inline-block; 
+    margin: 20px 50px; 
+    vertical-align: top; 
+    border-top: 3px solid blue; 
+}
+.textbox > ul{
+    color: #91bade; 
+    text-align: center; 
+}
+.textbox > h2{
+    text-align: center; 
+}
+.textbox > p{
+    text-align: center; 
+}
+#navbar{
+    display: inline-block;
+    height: 50px;
+    width: 1600px;
+    border-radius: 10px;
+    color: black;
+    background-color: #477EAD;
+    position:relative;
+    left: 100px;
+    box-shadow: 2px 2px;
+    /* border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom: 100px;
+    border-right-color: black;
+    border-right: 100px; */
+}
+
+.navbarText{
+    font-size: 25;
+    display: inline;
+    margin: 80px;
+    line-height: 2;
+    color: white;
+}
+
+#list{
+    position: relative;
+    width: 600px;
+    top: 20px;
+    left: 150px;
+    color: white;
+    text-decoration: underline;
+    display: inline-block;
+}
+#docs{
+}
+#av{
+    position: relative;
+    left: -40px;
+    bottom: 10px;
+}
+#beginner{
+    position: relative;
+    bottom: 20px;
+    left: -35px;
+}
+#developer{
+    position: relative;
+    bottom: 30px;
+    left: -40px;
+}
+#pep{
+    position: relative;
+    bottom: 40px;
+    left: -15px;
+}
+#python{
+    position: relative;
+    bottom: 50px;
+    left: -25px;
+}
+#faq{
+    position: relative;
+    bottom: 60px;
+    left: -0px;
+}
